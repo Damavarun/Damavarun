@@ -7,5 +7,5 @@
 - ⚡ Fun fact: I love To Do Competitive Programming
 
 <!---
-http://127.0.0.1:5500/index.html#home
+  Welcome to my profile 
 --->
