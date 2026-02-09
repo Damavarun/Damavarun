@@ -125,6 +125,18 @@
 - 🎯 Active competitive programmer across multiple platforms
 
 
+## 📊 Contributions & Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Damavarun&show_icons=true&count_private=true&theme=tokyonight" width="48%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Damavarun&theme=tokyo-night" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Damavarun/Damavarun/output/github-contribution-grid-snake.svg" />
+</p>
+
+
 ---
 
 ## 🐍 Contribution Snake
