@@ -120,10 +120,10 @@
 ---
 
 ## 🏆 Achievements
-- 🧠 Active Competitive Programmer across platforms
-- ⛓️ Built and deployed Blockchain-based applications
-- 💻 Strong foundation in Data Structures & Algorithms
-- 🚀 Consistently improving problem-solving skills
+- 🏅 Participated in **ICPC Regional Contest** (Team Contest)
+- 🥇 Runner of a **Hackathon conducted at IIIT Kota**
+- 🎯 Active competitive programmer across multiple platforms
+
 
 ---
 
