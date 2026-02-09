@@ -128,15 +128,11 @@
 
 ## 🚧 Currently Working On
 <!-- CURRENT_PROJECT_START -->
-- Currently working on: https://github.com/Damavarun/Damavarun
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Damavarun&repo=Damavarun&theme=dark" />
+</p>
 <!-- CURRENT_PROJECT_END -->
 
-## 🕒 Recent Work
-<!-- CURRENT_PROJECT_START -->
-> 🖥️ **Recently worked on**  
-> **Decentralized Healthcare DApp**  
-> 🔗 https://github.com/Damavarun/decentralized-healthcare-dapp
-<!-- CURRENT_PROJECT_END -->
 
 
 
