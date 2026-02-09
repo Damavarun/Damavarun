@@ -124,17 +124,27 @@
 - 🥇 Runner of a **Hackathon conducted at IIIT Kota**
 - 🎯 Active competitive programmer across multiple platforms
 
+---
+
+## 🚧 Currently Working On
+<!-- CURRENT_PROJECT_START -->
+Updating automatically...
+<!-- CURRENT_PROJECT_END -->
+
 
 ## 📊 Contributions & Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Damavarun&show_icons=true&count_private=true&theme=tokyonight" width="48%" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Damavarun&theme=tokyo-night" width="48%" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=Damavarun&show_icons=true&count_private=true&theme=tokyonight&hide_border=true"
+    width="48%"
+  />
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Damavarun/Damavarun/output/github-contribution-grid-snake.svg" />
 </p>
+
 
 ---
 
