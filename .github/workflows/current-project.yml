@@ -1,9 +1,9 @@
 name: Update Current Project
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes
   workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: write
@@ -11,22 +11,41 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch latest repo activity
+      - name: Get latest pushed repository
         run: |
           REPO=$(curl -s https://api.github.com/users/Damavarun/events/public \
-            | jq -r '[.[] | select(.type=="PushEvent")][0].repo.name')
+            | jq -r '.[] | select(.type=="PushEvent") | .repo.name' \
+            | head -n 1)
 
-          echo "Latest repo: $REPO"
+          echo "REPO=$REPO" >> $GITHUB_ENV
 
-          sed -i "/<!-- CURRENT_PROJECT_START -->/,/<!-- CURRENT_PROJECT_END -->/c\
-<!-- CURRENT_PROJECT_START -->\n- 🔥 **Currently working on:** [$REPO](https://github.com/$REPO)\n<!-- CURRENT_PROJECT_END -->" README.md
+      - name: Update README section
+        run: |
+          awk -v repo="$REPO" '
+          BEGIN {in_block=0}
+          /<!-- CURRENT_PROJECT_START -->/ {
+            print;
+            print "- Currently working on: https://github.com/" repo;
+            in_block=1;
+            next
+          }
+          /<!-- CURRENT_PROJECT_END -->/ {
+            in_block=0;
+            print;
+            next
+          }
+          !in_block { print }
+          ' README.md > README.tmp
+
+          mv README.tmp README.md
 
       - name: Commit changes
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git commit -am "🔄 Auto-update current project" || echo "No changes"
+          git commit -am "chore: auto-update current project" || echo "No changes"
           git push
