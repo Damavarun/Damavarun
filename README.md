@@ -128,9 +128,7 @@
 
 ## 🚧 Currently Working On
 <!-- CURRENT_PROJECT_START -->
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Damavarun&repo=Damavarun&theme=dark" />
-</p>
+- Currently working on: https://github.com/Damavarun/Damavarun
 <!-- CURRENT_PROJECT_END -->
 
 
