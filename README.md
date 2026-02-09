@@ -1,18 +1,13 @@
-<table align="center" width="100%" cellpadding="0" cellspacing="0">
-<tr>
-<td style="background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); padding: 30px; border-radius: 12px;">
-
-<h1 align="center" style="color:#ffffff;">Hi 👋, I'm Varun</h1>
+<!-- ================== HEADER ================== -->
+<h1 align="center">Hi 👋, I'm Varun</h1>
 
 <p align="center">
-  <img 
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=26&pause=800&color=00E5FF&center=true&vCenter=true&width=900&lines=Competitive+Programmer+🔥;Blockchain+%26+Web+Developer+⛓️;DSA+%26+Problem+Solving+Enthusiast+🧠;Building+Real-World+DApps+🚀"
-    alt="Typing SVG"
-  />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=900&color=36BCF7&center=true&vCenter=true&width=750&lines=Competitive+Programmer+%F0%9F%94%A5;Blockchain+Developer;DSA+Problem+Solving;Web+Developer" />
 </p>
 
-<p align="center" style="color:#e5e7eb;">
-  🚀 <b>Focused on DSA + Competitive Programming + Blockchain Development</b>
+
+<p align="center">
+  🚀 Focused on <b>DSA + Competitive Programming + Blockchain Development</b>
 </p>
 
 <p align="center">
@@ -31,52 +26,113 @@
   <img src="https://komarev.com/ghpvc/?username=Damavarun&label=Profile%20Views&color=blue&style=flat" />
 </p>
 
-<hr style="border:1px solid #334155">
+---
 
-<h2 style="color:#ffffff;">🚀 About Me</h2>
+## 🚀 About Me
+- 🎓 Computer Science student with strong **DSA fundamentals**
+- 🧠 Active **Competitive Programmer**
+- ⛓️ Building **Blockchain & Web3 applications**
+- 💻 Skilled in **Web Development & Smart Contracts**
+- 🎯 Goal: Top tech & Web3 internships
 
-<ul style="color:#e5e7eb;">
-<li>🎓 Computer Science student with strong <b>DSA fundamentals</b></li>
-<li>🧠 Active <b>Competitive Programmer</b></li>
-<li>⛓️ Building <b>Blockchain & Web3 applications</b></li>
-<li>💻 Skilled in <b>Web Development & Smart Contracts</b></li>
-<li>🎯 Goal: Top tech & Web3 internships</li>
-</ul>
+---
 
-<hr style="border:1px solid #334155">
-
-<h2 style="color:#ffffff;">🛠️ Tech Stack</h2>
+## 🛠️ Tech Stack
 <p align="center">
   <img src="https://skillicons.dev/icons?i=cpp,javascript,solidity,html,css,react,nodejs,git,github,vscode,ethereum" />
 </p>
 
-<hr style="border:1px solid #334155">
+---
 
-<h2 style="color:#ffffff;">📊 Competitive Programming Stats</h2>
+## 🌐 My Website
+<p align="center">
+  <a href="https://varun-dama.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Visit%20My%20Portfolio-000?style=for-the-badge&logo=vercel">
+  </a>
+</p>
+
+---
+
+## 🧠 Coding Profiles
+<p align="center">
+  <a href="https://codolio.com/profile/Varun_Dama">
+    <img src="https://img.shields.io/badge/Codolio-CP%20Overview-1e293b?style=for-the-badge">
+  </a>
+  <a href="https://www.codechef.com/users/varun_dama">
+    <img src="https://img.shields.io/badge/CodeChef-Active-brown?style=for-the-badge&logo=codechef">
+  </a>
+  <a href="https://atcoder.jp/users/Varun_Dama">
+    <img src="https://img.shields.io/badge/AtCoder-Active-222?style=for-the-badge">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://codeforces.com/profile/Dama_Varun">
+    <img src="https://img.shields.io/badge/Codeforces-Profile-1f8acb?style=for-the-badge&logo=codeforces">
+  </a>
+  <a href="https://leetcode.com/u/Varun_Dama/">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-000?style=for-the-badge&logo=leetcode&logoColor=orange">
+  </a>
+  <a href="https://www.naukri.com/code360/profile/9dc5e4f5-3211-4aeb-8f45-b5220c27e26e">
+    <img src="https://img.shields.io/badge/CodeStudio-DSA-blue?style=for-the-badge">
+  </a>
+</p>
+
+---
+
+## 📊 Competitive Programming Stats
+
+### 🔴 Live (Auto-Updating)
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/Varun_Dama?theme=dark&font=JetBrains+Mono&ext=contest&cache_seconds=1800" width="48%" />
   <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Dama_Varun&theme=dark&cache_seconds=1800" width="48%" />
 </p>
 
-<hr style="border:1px solid #334155">
+---
 
-<h2 style="color:#ffffff;">📈 GitHub Performance</h2>
+## ⛓️ Featured Blockchain Project
+
+### 🏥 Decentralized Healthcare DApp
+- 🔐 Secure medical record storage using **Blockchain**
+- 👨‍⚕️ Role-based access for **Doctors & Patients**
+- 📜 Smart contracts ensure **immutability**
+- 🌐 Full-stack DApp with wallet integration
+
+**Tech Stack:** Solidity · React · Web3.js · Ethereum  
+
+🔗 Repo: https://github.com/Damavarun/healthcare-dapp
+
+---
+
+## 📈 GitHub Performance
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Damavarun&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Damavarun&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Damavarun&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800"
+    width="48%"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Damavarun&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800"
+    width="48%"
+  />
 </p>
 
-<hr style="border:1px solid #334155">
+---
 
-<h2 style="color:#ffffff;">🐍 Contribution Snake</h2>
+## 🏆 Achievements
+- 🧠 Active Competitive Programmer across platforms
+- ⛓️ Built and deployed Blockchain-based applications
+- 💻 Strong foundation in Data Structures & Algorithms
+- 🚀 Consistently improving problem-solving skills
+
+---
+
+## 🐍 Contribution Snake
 <p align="center">
   <img src="https://raw.githubusercontent.com/Damavarun/Damavarun/output/github-contribution-grid-snake.svg" />
 </p>
 
-<p align="center" style="color:#e5e7eb;">
+---
+
+<p align="center">
   ⭐ If you like my work, consider starring my repositories!
 </p>
-
-</td>
-</tr>
-</table>
