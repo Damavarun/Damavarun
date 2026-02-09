@@ -8,7 +8,7 @@
 
 
 <p align="center">
-  🚀 Focused on <b>DSA + Competitive Programming + Blockchain Development</b>
+  🚀 Focused on <b>DSA + Competitive Programming +  Full Stack Development</b>
 </p>
 
 <p align="center">
