@@ -2,8 +2,9 @@
 <h1 align="center">Hi 👋, I'm Varun</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=900&color=36BCF7&center=true&vCenter=true&width=750&lines=Competitive+Programmer+%F0%9F%94%A5;Blockchain+Developer;DSA+Problem+Solving;Web+Developer" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=900&color=EF4444&center=true&vCenter=true&width=750&lines=Competitive+Programmer;DSA+and+Problem+Solving;Web+Developer" alt="Typing SVG" />
 </p>
+
 
 
 <p align="center">
