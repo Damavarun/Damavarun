@@ -120,7 +120,7 @@
 ---
 
 ## 🏆 Achievements
-- 🏅 Participated in **ICPC Regional Contest** (Team Contest)
+- 🏅 Participated in **ICPC Regional Contest**
 - 🥇 Runner of a **Hackathon conducted at IIIT Kota**
 - 🎯 Active competitive programmer across multiple platforms
 
