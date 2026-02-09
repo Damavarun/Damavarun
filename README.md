@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  🚀 Focused on <b>DSA + Competitive Programming + Blockchain Development</b>
+</p>
+
+<p align="center">
   <a href="https://varun-dama.vercel.app/">
     <img src="https://img.shields.io/badge/🌐 Portfolio-black?style=for-the-badge">
   </a>
@@ -28,18 +32,18 @@
 
 <!-- ================== ABOUT ================== -->
 ## 🚀 About Me
-- 🎓 Computer Science student passionate about **problem solving & system thinking**
+- 🎓 Computer Science student with strong fundamentals in **DSA & system thinking**
 - 🧠 Active **Competitive Programmer** across multiple platforms
-- ⛓️ Building **Blockchain & Web3 DApps**
-- 💻 Strong in **DSA, Web Development & Smart Contracts**
-- 🔥 Goal: Crack top tech internships & build impactful products
+- ⛓️ Hands-on experience building **Blockchain & Web3 DApps**
+- 💻 Skilled in **Web Development, Smart Contracts & Problem Solving**
+- 🎯 Career goal: **Top tech / Web3 internships & impactful engineering roles**
 
 ---
 
 <!-- ================== TECH STACK ================== -->
 ## 🛠️ Tech Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,python,javascript,solidity,html,css,react,nodejs,git,github,vscode,ethereum" />
+  <img src="https://skillicons.dev/icons?i=cpp,javascript,solidity,html,css,react,nodejs,git,github,vscode,ethereum" />
 </p>
 
 ---
@@ -73,22 +77,24 @@
 <!-- ================== LIVE STATS ================== -->
 ## 📊 Live Coding Stats
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/Varun_Dama?theme=dark&font=JetBrains+Mono&ext=contest" width="48%" />
-  <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Dama_Varun&theme=dark" width="48%" />
+  <img src="https://leetcard.jacoblin.cool/Varun_Dama?theme=dark&font=JetBrains+Mono&ext=contest&cache_seconds=1800" width="48%" />
+  <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Dama_Varun&theme=dark&cache_seconds=1800" width="48%" />
 </p>
 
 ---
 
 <!-- ================== FEATURED PROJECTS ================== -->
-## ⛓️ Featured Blockchain Projects
+## ⛓️ Featured Blockchain Project
 
 ### 🏥 Decentralized Healthcare DApp
-- 🔹 Secure medical record sharing using **Blockchain**
-- 🔹 Role-based access: Patients & Doctors
-- 🔹 Smart contracts in **Solidity**
-- 🔹 Tech: Solidity, React, Web3.js, Ethereum
+- 🔐 Secure medical data storage using **Blockchain**
+- 👨‍⚕️ Role-based access for **Doctors & Patients**
+- 📜 Smart contracts ensure **data immutability**
+- 🌐 Full-stack DApp with wallet integration
 
-🔗 Repo: https://github.com/Damavarun/healthcare-dapp
+**Tech Stack:** Solidity · React · Web3.js · Ethereum  
+
+🔗 Repository: https://github.com/Damavarun/healthcare-dapp
 
 ---
 
@@ -101,11 +107,12 @@
 
 ---
 
-<!-- ================== TROPHIES ================== -->
+<!-- ================== ACHIEVEMENTS ================== -->
 ## 🏆 Achievements
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Damavarun&theme=onedark&row=1&column=6" />
-</p>
+- 🧠 Active Competitive Programmer on multiple platforms
+- ⛓️ Designed & implemented Blockchain-based applications
+- 💻 Strong foundation in Data Structures & Algorithms
+- 🚀 Consistently improving problem-solving skills
 
 ---
 
