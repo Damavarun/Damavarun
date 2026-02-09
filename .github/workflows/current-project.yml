@@ -1,0 +1,32 @@
+name: Update Current Project
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch latest repo activity
+        run: |
+          REPO=$(curl -s https://api.github.com/users/Damavarun/events/public \
+            | jq -r '[.[] | select(.type=="PushEvent")][0].repo.name')
+
+          echo "Latest repo: $REPO"
+
+          sed -i "/<!-- CURRENT_PROJECT_START -->/,/<!-- CURRENT_PROJECT_END -->/c\
+<!-- CURRENT_PROJECT_START -->\n- 🔥 **Currently working on:** [$REPO](https://github.com/$REPO)\n<!-- CURRENT_PROJECT_END -->" README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git commit -am "🔄 Auto-update current project" || echo "No changes"
+          git push
