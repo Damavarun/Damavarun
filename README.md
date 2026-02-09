@@ -101,7 +101,7 @@
 
 **Tech Stack:** Solidity · React · Web3.js · Ethereum  
 
-🔗 Repo: https://github.com/Damavarun/healthcare-dapp
+🔗 Repo: https://github.com/Damavarun/decentralized-healthcare-dapp
 
 ---
 
