@@ -15,16 +15,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Detect latest contributed repository
+      - name: Get latest active repository
         run: |
-          PROFILE_REPO="Damavarun/Damavarun"
+          PROFILE_REPO="Damavarun"
 
-          FULL_REPO=$(curl -s https://api.github.com/users/Damavarun/events/public \
+          FULL_REPO=$(curl -s https://api.github.com/users/Damavarun/repos?sort=updated \
             | jq -r --arg profile "$PROFILE_REPO" '
               .[]
-              | select(.type=="PushEvent")
-              | select(.repo.name != $profile)
-              | .repo.name
+              | select(.name != $profile)
+              | .full_name
             ' | head -n 1)
 
           OWNER=$(echo "$FULL_REPO" | cut -d'/' -f1)
@@ -33,7 +32,7 @@ jobs:
           echo "OWNER=$OWNER" >> $GITHUB_ENV
           echo "REPO=$REPO" >> $GITHUB_ENV
 
-      - name: Update README with repo card
+      - name: Update README card
         run: |
           awk -v owner="$OWNER" -v repo="$REPO" '
           BEGIN {in_block=0}
