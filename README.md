@@ -126,9 +126,13 @@
 
 ---
 
-## 🚧 Currently Working On
+## 🕒 Last Work Done
 <!-- CURRENT_PROJECT_START -->
-- Currently working on: https://github.com/Damavarun/Damavarun
+<p align="left">
+  <img 
+    src="https://github-readme-stats.vercel.app/api/pin/?username=Damavarun&repo=Damavarun&theme=dark&border_radius=12&hide_border=true"
+  />
+</p>
 <!-- CURRENT_PROJECT_END -->
 
 
