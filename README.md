@@ -129,7 +129,7 @@
 ## 🕒 Last Work Done
 <!-- CURRENT_PROJECT_START -->
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Damavarun&repo=decentralized-healthcare-dapp&theme=dark&hide_border=true&border_radius=12&cache_seconds=1800" />
+  <img src="last-work.svg" />
 </p>
 <!-- CURRENT_PROJECT_END -->
 
