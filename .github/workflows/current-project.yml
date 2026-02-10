@@ -1,4 +1,4 @@
-name: Update Current Project
+name: Update Last Work Card
 
 on:
   workflow_dispatch:
@@ -15,21 +15,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Get latest pushed repository
+      - name: Detect latest contributed repository
         run: |
-          REPO=$(curl -s https://api.github.com/users/Damavarun/events/public \
-            | jq -r '.[] | select(.type=="PushEvent") | .repo.name' \
-            | head -n 1)
+          PROFILE_REPO="Damavarun/Damavarun"
 
+          FULL_REPO=$(curl -s https://api.github.com/users/Damavarun/events/public \
+            | jq -r --arg profile "$PROFILE_REPO" '
+              .[]
+              | select(.type=="PushEvent")
+              | select(.repo.name != $profile)
+              | .repo.name
+            ' | head -n 1)
+
+          OWNER=$(echo "$FULL_REPO" | cut -d'/' -f1)
+          REPO=$(echo "$FULL_REPO" | cut -d'/' -f2)
+
+          echo "OWNER=$OWNER" >> $GITHUB_ENV
           echo "REPO=$REPO" >> $GITHUB_ENV
 
-      - name: Update README section
+      - name: Update README with animated card
         run: |
-          awk -v repo="$REPO" '
+          awk -v owner="$OWNER" -v repo="$REPO" '
           BEGIN {in_block=0}
           /<!-- CURRENT_PROJECT_START -->/ {
             print;
-            print "- Currently working on: https://github.com/" repo;
+            print "<p align=\"left\">";
+            print "  <img src=\"https://github-readme-stats.vercel.app/api/pin/?username=" owner "&repo=" repo "&theme=dark&border_radius=12&hide_border=true\" />";
+            print "</p>";
             in_block=1;
             next
           }
@@ -47,5 +59,5 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git commit -am "chore: auto-update current project" || echo "No changes"
+          git commit -am "chore: auto-update last work card" || echo "No changes"
           git push
