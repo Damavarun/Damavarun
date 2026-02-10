@@ -1,4 +1,4 @@
-name: Update Last Work Card
+name: Update Last Work Card (Local SVG)
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Get latest active repository
+      - name: Detect latest active repository
         run: |
           PROFILE_REPO="Damavarun"
 
@@ -26,37 +26,32 @@ jobs:
               | .full_name
             ' | head -n 1)
 
-          OWNER=$(echo "$FULL_REPO" | cut -d'/' -f1)
-          REPO=$(echo "$FULL_REPO" | cut -d'/' -f2)
+          echo "REPO=$FULL_REPO" >> $GITHUB_ENV
 
-          echo "OWNER=$OWNER" >> $GITHUB_ENV
-          echo "REPO=$REPO" >> $GITHUB_ENV
-
-      - name: Update README card
+      - name: Generate SVG card
         run: |
-          awk -v owner="$OWNER" -v repo="$REPO" '
-          BEGIN {in_block=0}
-          /<!-- CURRENT_PROJECT_START -->/ {
-            print;
-            print "<p align=\"left\">";
-            print "  <img src=\"https://github-readme-stats.vercel.app/api/pin/?username=" owner "&repo=" repo "&theme=dark&hide_border=true&border_radius=12\" />";
-            print "</p>";
-            in_block=1;
-            next
-          }
-          /<!-- CURRENT_PROJECT_END -->/ {
-            in_block=0;
-            print;
-            next
-          }
-          !in_block { print }
-          ' README.md > README.tmp
+          REPO_NAME=$(echo "$REPO" | cut -d'/' -f2)
+          OWNER=$(echo "$REPO" | cut -d'/' -f1)
 
-          mv README.tmp README.md
+          cat > last-work.svg <<EOF
+          <svg width="500" height="120" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100%" height="100%" rx="14" fill="#0d1117"/>
+            <text x="20" y="40" fill="#f0f6fc" font-size="18" font-family="Arial">
+              🚀 Last Work Done
+            </text>
+            <text x="20" y="70" fill="#58a6ff" font-size="16" font-family="Arial">
+              ${OWNER}/${REPO_NAME}
+            </text>
+            <text x="20" y="95" fill="#8b949e" font-size="14" font-family="Arial">
+              Recently updated repository
+            </text>
+          </svg>
+          EOF
 
-      - name: Commit changes
+      - name: Commit SVG
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git commit -am "chore: auto-update last work card" || echo "No changes"
+          git add last-work.svg
+          git commit -m "chore: update last work svg" || echo "No changes"
           git push
