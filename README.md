@@ -28,6 +28,9 @@
 </p>
 
 ---
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=120&section=footer&text=About%20Me&fontColor=ffffff" />
+</p>
 
 ## 🚀 About Me
 - 🎓 Computer Science student with strong **DSA fundamentals**
@@ -37,6 +40,9 @@
 - 🎯 Goal: Top tech & Web3 internships
 
 ---
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=120&section=footer&text=About%20Me&fontColor=ffffff" />
+</p>
 
 ## 🛠️ Tech Stack
 <p align="center">
