@@ -1,14 +1,16 @@
 <!-- ================== HEADER ================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=180&section=header&text=Varun%20Dama&fontColor=ffffff&fontSize=42" />
+</p>
+
 <h1 align="center">Hi 👋, I'm Varun</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=900&color=EF4444&center=true&vCenter=true&width=750&lines=Competitive+Programmer;DSA+and+Problem+Solving;Web+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=900&color=EF4444&center=true&vCenter=true&width=750&lines=Competitive+Programmer;DSA+and+Problem+Solving;Web+Developer" />
 </p>
 
-
-
 <p align="center">
-  🚀 Focused on <b>DSA + Competitive Programming +  Full Stack Development</b>
+  🚀 Focused on <b>DSA + Competitive Programming + Full Stack Development</b>
 </p>
 
 <p align="center">
@@ -28,23 +30,36 @@
 </p>
 
 ---
-## 🚀 About Me
+
+<!-- ================== ABOUT ME ================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=110&section=footer&text=About%20Me&fontColor=ffffff&fontSize=28" />
+</p>
+
 - 🎓 Computer Science student with strong **DSA fundamentals**
 - 🧠 Active **Competitive Programmer**
+- 💻 Skilled in **Web Development**
 - ⛓️ Building **Blockchain & Web3 applications**
-- 💻 Skilled in **Web Development & Smart Contracts**
 - 🎯 Goal: Top tech & Web3 internships
 
 ---
 
-## 🛠️ Tech Stack
+<!-- ================== TECH STACK ================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0a192f&height=110&section=footer&text=Tech%20Stack&fontColor=ffffff&fontSize=28" />
+</p>
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=cpp,javascript,solidity,html,css,react,nodejs,git,github,vscode,ethereum" />
 </p>
 
 ---
 
-## 🌐 My Website
+<!-- ================== WEBSITE ================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=110&section=footer&text=My%20Website&fontColor=ffffff&fontSize=28" />
+</p>
+
 <p align="center">
   <a href="https://varun-dama.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Visit%20My%20Portfolio-000?style=for-the-badge&logo=vercel">
@@ -53,10 +68,14 @@
 
 ---
 
-## 🧠 Coding Profiles
+<!-- ================== CODING PROFILES ================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0a192f&height=110&section=footer&text=Coding%20Profiles&fontColor=ffffff&fontSize=28" />
+</p>
+
 <p align="center">
   <a href="https://codolio.com/profile/Varun_Dama">
-    <img src="https://img.shields.io/badge/Codolio-CP%20Overview-1e293b?style=for-the-badge">
+    <img src="https://img.shields.io/badge/Codolio-Overview-1e293b?style=for-the-badge">
   </a>
   <a href="https://www.codechef.com/users/varun_dama">
     <img src="https://img.shields.io/badge/CodeChef-Active-brown?style=for-the-badge&logo=codechef">
@@ -80,62 +99,66 @@
 
 ---
 
-## 📊 Competitive Programming Stats
-
-### 🔴 Live (Auto-Updating)
+<!-- ================== CP STATS ================== -->
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/Varun_Dama?theme=dark&font=JetBrains+Mono&ext=contest&cache_seconds=1800" width="48%" />
-  <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Dama_Varun&theme=dark&cache_seconds=1800" width="48%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=110&section=footer&text=Competitive%20Programming%20Stats&fontColor=ffffff&fontSize=26" />
+</p>
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/Varun_Dama?theme=dark&font=JetBrains+Mono&ext=contest" width="48%" />
+  <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Dama_Varun&theme=dark" width="48%" />
 </p>
 
 ---
 
-## ⛓️ Featured Blockchain Project
+<!-- ================== FEATURED PROJECT ================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0a192f&height=110&section=footer&text=Featured%20Blockchain%20Project&fontColor=ffffff&fontSize=26" />
+</p>
 
 ### 🏥 Decentralized Healthcare DApp
-- 🔐 Secure medical record storage using **Blockchain**
-- 👨‍⚕️ Role-based access for **Doctors & Patients**
-- 📜 Smart contracts ensure **immutability**
-- 🌐 Full-stack DApp with wallet integration
+- 🔐 Secure medical record storage using blockchain  
+- 👨‍⚕️ Role-based access for doctors & patients  
+- 📜 Smart contracts ensure immutability  
+- 🌐 Full-stack DApp with wallet integration  
 
 **Tech Stack:** Solidity · React · Web3.js · Ethereum  
-
 🔗 Repo: https://github.com/Damavarun/decentralized-healthcare-dapp
 
 ---
 
-## 📈 GitHub Performance
+<!-- ================== ACHIEVEMENTS ================== -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Damavarun&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Damavarun&layout=compact&theme=tokyonight" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=110&section=footer&text=Achievements&fontColor=ffffff&fontSize=28" />
 </p>
 
-
----
-
-## 🏆 Achievements
 - 🏅 Participated in **ICPC Regional Contest**
-- 🥇 Runner of a **Hackathon conducted at IIIT Kota**
-- 🎯 Active competitive programmer across multiple platforms
+- 🥇 Runner in a **Hackathon at hookup IIIT Kota**
+- 🎯 Active competitive programmer across platforms
 
 ---
 
-## 🕒 Last Work Done
+<!-- ================== LAST WORK DONE ================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0a192f&height=110&section=footer&text=Last%20Work%20Done&fontColor=ffffff&fontSize=28" />
+</p>
+
 <!-- CURRENT_PROJECT_START -->
-<p align="left">
+<p align="center">
   <img src="last-work.svg" />
 </p>
 <!-- CURRENT_PROJECT_END -->
 
+---
 
-
-## 🧩 Contributions & Activity
+<!-- ================== CONTRIBUTIONS ================== -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=110&section=footer&text=Contributions%20%26%20Activity&fontColor=ffffff&fontSize=26" />
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Damavarun/Damavarun/output/github-contribution-grid-snake.svg" />
 </p>
-
-
 
 ---
 
