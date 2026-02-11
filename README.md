@@ -138,9 +138,6 @@
 <!-- ================== CONTRIBUTIONS ================== -->
 ## 🧩 Contributions & Activity
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=110&section=footer&text=Contributions%20%26%20Activity&fontColor=ffffff&fontSize=26" />
-</p>
-<p align="center">
   <img src="https://raw.githubusercontent.com/Damavarun/Damavarun/output/github-contribution-grid-snake.svg" />
 </p>
 
