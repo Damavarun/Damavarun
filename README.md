@@ -107,15 +107,10 @@
 
 ## 📈 GitHub Performance
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=Damavarun&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800"
-    width="48%"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Damavarun&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800"
-    width="48%"
-  />
+  <img src="https://github-readme-stats.vercel.app/api?username=Damavarun&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Damavarun&layout=compact&theme=tokyonight" />
 </p>
+
 
 ---
 
