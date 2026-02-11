@@ -111,22 +111,6 @@
 
 ---
 
-<!-- ================== FEATURED PROJECT ================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0a192f&height=110&section=footer&text=Featured%20Blockchain%20Project&fontColor=ffffff&fontSize=26" />
-</p>
-
-### 🏥 Decentralized Healthcare DApp
-- 🔐 Secure medical record storage using blockchain  
-- 👨‍⚕️ Role-based access for doctors & patients  
-- 📜 Smart contracts ensure immutability  
-- 🌐 Full-stack DApp with wallet integration  
-
-**Tech Stack:** Solidity · React · Web3.js · Ethereum  
-🔗 Repo: https://github.com/Damavarun/decentralized-healthcare-dapp
-
----
-
 <!-- ================== ACHIEVEMENTS ================== -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=110&section=footer&text=Achievements&fontColor=ffffff&fontSize=28" />
