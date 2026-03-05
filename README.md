@@ -117,7 +117,7 @@
 </p>
 
 - 🏅 Participated in **ICPC Regional Contest**
-- 🥇 Runner in a **Hackathon at hookup IIIT Kota**
+- 🥇 Runner in a **HackTheChain 2.0 at IIIT Kota**
 - 🎯 Active competitive programmer across platforms
 
 ---
